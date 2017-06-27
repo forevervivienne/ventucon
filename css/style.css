@@ -1,0 +1,398 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.2;
+  line-height: 1.5;
+  color: #212121;
+  font-size: 14px;
+}
+
+::selection{
+  background: #083471;
+  color: #fff;
+}
+
+/*=====global======*/
+a, a:hover, a:visited, a:focus{
+  text-decoration: none;
+}
+
+.color{
+  color: #212121;
+}
+
+.btn-head, .btn-wwd, .btn-ready{
+  display: block;
+  padding: 10px;
+  background-color: #f000;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.btn-head{
+  border: 2px solid #083471;
+  color: #083471;
+  width: 95%;
+}
+
+.btn-head:hover{
+  background: #083471;
+  color: #fff;
+}
+
+.btn-ready{
+  border: 2px solid #083471;
+  color: #083471;
+  width: 40%;
+}
+.btn-ready:hover{
+  background: #083471;
+  color: #fff;
+}
+
+.btn-wwd{
+  border: 2px solid #fff;
+  color: #fff;
+  width: 40%;
+}
+
+.btn-wwd:hover{
+  background: #fff;
+  color: #083471;
+}
+
+.btn-wwd:hover, .btn-ready:hover, .btn-head:hover{
+  -webkit-transition: all 500ms ease-in-out;
+-moz-transition: all 500ms ease-in-out;
+-ms-transition: all 500ms ease-in-out;
+-o-transition: all 500ms ease-in-out;
+transition: all 500ms ease-in-out;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #083471;
+}
+
+h1{
+  font-size: 2em;
+  line-height: inherit;
+}
+
+.line{
+  border-top: 1px solid #212121;
+}
+
+.clear{
+  clear: both;
+}
+.padding-top{
+  padding-top: 2em;
+}
+.padding-left{
+  padding-left: 2em;
+}
+.padding-right{
+  padding-right: 2em;
+}
+.padding-bottom{
+  padding-bottom: 4em;
+}
+
+/*=========nav=======*/
+
+.no-border-radius{
+  border-radius: 0;
+}
+
+nav{
+  background: #f000;
+  padding: 20px 10px 20px 10px;
+}
+.navbar{
+}
+.white-text{
+  color: #fff;
+}
+
+ul.nav li{
+  margin-left: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+ul.nav li a{
+  text-decoration: none;
+  color: #515151;
+}
+ul.nav li a:hover{
+  border-bottom: 3px solid #083471;
+  color: #083471;
+  background-color: #fff;
+  -webkit-transition: color 500ms ease-in-out;
+-moz-transition: color 500ms ease-in-out;
+-ms-transition: color 500ms ease-in-out;
+-o-transition: color 500ms ease-in-out;
+transition: color 500ms ease-in-out;
+}
+ul.nav li a:active, a:focus{
+  border-bottom: 3px solid #083471;
+  color: #083471;
+  background-color: #fff;
+}
+
+.nav-logo{
+  display: block;
+}
+.nav-logo img{
+  width: 150px;
+  height: 82px;
+}
+.navbar-menu-padding{
+  padding-top: 1.2em;
+}
+.nav-wrapper{
+  width: 92%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*=========header========*/
+
+.section-header-content{
+  text-align: left;
+}
+.section-header-cta{
+  margin-top: 40px;
+}
+section#header{
+  width: 100%;
+  padding: 4em 0 2em 0;
+}
+.section-header-tagline p{
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.section-header-image{
+  position: absolute;
+  top: -20px;
+  left: 200px;
+  z-index: 1000;
+}
+
+/*==========what we do section==========*/
+section#wwd{
+  background: #083471 url("../img/skyscrapers.jpg") no-repeat 50%;
+  background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+  width: 100%;
+  color: #fff;
+  margin-top: 7em;
+  padding: 7em 0 7em 0;
+  z-index: 2000;
+  position: relative;
+}
+.bcg{
+  background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.section-chevron{
+  margin-bottom: 70px;
+}
+
+.section-wwd-content p{
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+
+.section-wwd-content{
+    margin-top: 50px;
+}
+
+.section-wwd-cta{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/*=============information section==========*/
+
+section#information{
+  background: #fff;
+  margin-top: 50px;
+  color: #083471;
+  padding: 4em 0 7em 0;
+}
+
+.section-information-investor-image{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+}
+
+.section-information-content{
+
+}
+
+.section-information-content p{
+  font-size: 22px;
+  color: #212121;
+  font-weight: 300;
+}
+
+/*=============entrepreneur section=============*/
+section#entrepreneur{
+  background: #083471 url("../img/skyscrapers.jpg") no-repeat 50%;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  margin-top: 50px;
+  color: #fff;
+  padding: 4em 0 7em 0;
+}
+
+.section-entrepreneur-image{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+
+}
+
+.section-entrepreneur-content{
+
+}
+
+.section-entrepreneur-content p{
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*==========ready==========*/
+section#ready{
+  background: #fefefe;
+  color: #212121;
+  padding: 4em 0 7em 0;
+  margin-top: 50px;
+}
+
+.section-ready-content p{
+  font-size: 22px;
+}
+.section-ready-content{
+  margin-top: 50px;
+}
+.section-ready-cta{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+/*=======footer=======*/
+footer#footer{
+  background: #fefefe;
+  color: #212121;
+  padding: 1em 0 1em 0;
+}
+
+.section-footer-links ul{
+  margin: 0;
+  padding: 0;
+}
+
+.section-footer-links li{
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.section-footer-links li a{
+  text-decoration: none;
+
+}
+
+.wrapper{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.padding{
+  padding: 50px;
+}
+
+
+span.bold{
+  font-weight: 600;
+}
+
+@media (max-width:600px) {
+  .section-header-tagline p, .section-entrepreneur-content p, .section-ready-content p, .section-information-content p,
+  .section-wwd-content p{
+    font-size: 18px;
+  }
+  section#header{
+    width: 100%;
+    padding: 0;
+    margin-top: 3em;
+  }
+
+    .wrapper{
+      padding: 0;
+      width: 100%;
+    }
+
+  h1{
+    font-size:  1.7em;
+  }
+  .btn-wwd, .btn-ready{
+    width: 90%;
+  }
+  .nav-logo{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width:601px) and (max-width:767px) {
+  section#header{
+    width: 100%;
+    padding: 0;
+    margin-top: 3em;
+  }
+
+    .wrapper{
+      padding: 0;
+      width: 87%;
+    }
+
+  h1{
+    font-size:  1.7em;
+  }
+  .nav-logo{
+    float: left;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+  .nav-logo{
+    margin-left: 1em;
+  }
+  section#header{
+    padding-left: 2em
+  }
+}
