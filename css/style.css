@@ -179,11 +179,18 @@ section#header{
   margin-top: 15px;
 }
 
+/*
 .section-header-image{
   position: absolute;
   top: -20px;
   left: 200px;
   z-index: 1000;
+}*/
+
+.section-header-image{
+  float: right;
+  width: 100%;
+  margin-bottom: -146px;
 }
 
 /*==========what we do section==========*/
@@ -394,5 +401,18 @@ span.bold{
   }
   section#header{
     padding-left: 2em
+  }
+}
+
+@media (min-width: 1280px) {
+  .section-header-image{
+    margin-right: -6em;
+  }
+}
+
+@media (min-width:770px) and (max-width:870px) {
+  .section-header-image{
+    width: 30%;
+    margin: 0 auto;
   }
 }
